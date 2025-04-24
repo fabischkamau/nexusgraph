@@ -1,87 +1,46 @@
-# Welcome to React Router!
+# TechVision Solutions - Corporate Website
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
+A modern, production-ready corporate website template built with React Router, showcasing professional services and technological expertise with enterprise-grade features.
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-## Features
+## Core Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Server-side rendering for optimal performance
+- Interactive UI components using Shadcn/UI
+- Responsive design with TailwindCSS
+- Case studies and service portfolio sections
+- Team profiles and client testimonials
+- Contact forms with validation
+- Interactive location maps
+- TypeScript for type safety
+- Hot Module Replacement (HMR)
+- Optimized asset bundling
+
+## Tech Stack
+
+- React 18
+- TypeScript
+- Vite
+- TailwindCSS
+- Shadcn/UI Components
+- React Router
+- React Query for data management
+
+## Prerequisites
+
+Before starting, ensure you have:
+
+- Node.js (v16.0.0 or higher)
+- pnpm (v8.0.0 or higher)
 
 ## Getting Started
 
 ### Installation
 
-Install the dependencies:
+Clone and install dependencies:
 
 ```bash
-npm install
+git clone https://github.com/fabischkamau/nexusgraph.git
+cd tech-vision-solutions
+pnpm install
 ```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.

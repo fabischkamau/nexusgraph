@@ -1,0 +1,141 @@
+import { Link } from "react-router";
+
+export default function Logo() {
+  return (
+    <Link to="/" className="flex items-center gap-2">
+      <div className="w-10 h-10 relative">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20 5C11.7157 5 5 11.7157 5 20C5 28.2843 11.7157 35 20 35C28.2843 35 35 28.2843 35 20C35 11.7157 28.2843 5 20 5Z"
+            stroke="url(#paint0_linear)"
+            strokeWidth="2"
+          />
+          <circle cx="20" cy="20" r="3" fill="url(#paint1_linear)" />
+          <circle cx="12" cy="15" r="2" fill="url(#paint2_linear)" />
+          <circle cx="28" cy="15" r="2" fill="url(#paint3_linear)" />
+          <circle cx="12" cy="25" r="2" fill="url(#paint4_linear)" />
+          <circle cx="28" cy="25" r="2" fill="url(#paint5_linear)" />
+          <path d="M20 17L12 15" stroke="url(#paint6_linear)" strokeWidth="1" />
+          <path d="M20 17L28 15" stroke="url(#paint7_linear)" strokeWidth="1" />
+          <path d="M20 23L12 25" stroke="url(#paint8_linear)" strokeWidth="1" />
+          <path d="M20 23L28 25" stroke="url(#paint9_linear)" strokeWidth="1" />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="5"
+              y1="5"
+              x2="35"
+              y2="35"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear"
+              x1="17"
+              y1="17"
+              x2="23"
+              y2="23"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear"
+              x1="10"
+              y1="13"
+              x2="14"
+              y2="17"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear"
+              x1="26"
+              y1="13"
+              x2="30"
+              y2="17"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint4_linear"
+              x1="10"
+              y1="23"
+              x2="14"
+              y2="27"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint5_linear"
+              x1="26"
+              y1="23"
+              x2="30"
+              y2="27"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint6_linear"
+              x1="12"
+              y1="15"
+              x2="20"
+              y2="17"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint7_linear"
+              x1="20"
+              y1="17"
+              x2="28"
+              y2="15"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint8_linear"
+              x1="12"
+              y1="25"
+              x2="20"
+              y2="23"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+            <linearGradient
+              id="paint9_linear"
+              x1="20"
+              y1="23"
+              x2="28"
+              y2="25"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#7B42F6" />
+              <stop offset="1" stopColor="#00E5FF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div className="font-bold text-xl bg-gradient-to-r from-accent-purple to-accent-teal bg-clip-text text-transparent">
+        NexusGraph
+      </div>
+    </Link>
+  );
+}
